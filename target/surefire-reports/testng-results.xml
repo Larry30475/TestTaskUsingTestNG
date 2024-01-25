@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-25T02:19:36 CET" name="Command line suite" finished-at="2024-01-25T02:19:40 CET" duration-ms="4189">
+    <groups>
+    </groups>
+    <test started-at="2024-01-25T02:19:36 CET" name="Command line test" finished-at="2024-01-25T02:19:40 CET" duration-ms="4189">
+      <class name="UpdateUserTest">
+        <test-method signature="testUpdateUserSuccessfully()[pri:0, instance:UpdateUserTest@45752059]" started-at="2024-01-25T02:19:36 CET" name="testUpdateUserSuccessfully" finished-at="2024-01-25T02:19:37 CET" duration-ms="1210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserSuccessfully -->
+        <test-method signature="testUpdateUserUnsuccessfully()[pri:0, instance:UpdateUserTest@45752059]" started-at="2024-01-25T02:19:37 CET" name="testUpdateUserUnsuccessfully" finished-at="2024-01-25T02:19:37 CET" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserUnsuccessfully -->
+      </class> <!-- UpdateUserTest -->
+      <class name="CreateUserTest">
+        <test-method signature="testCreateUserSuccessfully()[pri:0, instance:CreateUserTest@2d1ef81a]" started-at="2024-01-25T02:19:38 CET" name="testCreateUserSuccessfully" finished-at="2024-01-25T02:19:38 CET" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserSuccessfully -->
+        <test-method signature="testCreateUserUnsuccessfully()[pri:0, instance:CreateUserTest@2d1ef81a]" started-at="2024-01-25T02:19:38 CET" name="testCreateUserUnsuccessfully" finished-at="2024-01-25T02:19:39 CET" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserUnsuccessfully -->
+      </class> <!-- CreateUserTest -->
+      <class name="GetUserByIdTest">
+        <test-method signature="testGetUserByIdSuccessfully()[pri:0, instance:GetUserByIdTest@22ff4249]" started-at="2024-01-25T02:19:37 CET" name="testGetUserByIdSuccessfully" finished-at="2024-01-25T02:19:37 CET" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByIdSuccessfully -->
+        <test-method signature="testGetUserByIdUnsuccessfully()[pri:0, instance:GetUserByIdTest@22ff4249]" started-at="2024-01-25T02:19:37 CET" name="testGetUserByIdUnsuccessfully" finished-at="2024-01-25T02:19:38 CET" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByIdUnsuccessfully -->
+      </class> <!-- GetUserByIdTest -->
+      <class name="DeleteUserTest">
+        <test-method signature="testDeleteUserSuccessfully()[pri:0, instance:DeleteUserTest@4c402120]" started-at="2024-01-25T02:19:39 CET" name="testDeleteUserSuccessfully" finished-at="2024-01-25T02:19:39 CET" duration-ms="572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserSuccessfully -->
+        <test-method signature="testDeleteUserUnsuccessfully()[pri:0, instance:DeleteUserTest@4c402120]" started-at="2024-01-25T02:19:39 CET" name="testDeleteUserUnsuccessfully" finished-at="2024-01-25T02:19:40 CET" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserUnsuccessfully -->
+      </class> <!-- DeleteUserTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

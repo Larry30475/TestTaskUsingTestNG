@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite" parallel="methods" thread-count="3">
+
+    <parameter name="appUrl" value="http://3.68.165.45/player"/>
+
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+    <test name="CreateUserTest">
+        <classes>
+            <class name="CreateUserTest"/>
+        </classes>
+    </test>
+
+    <test name="DeleteUserTest">
+        <classes>
+            <class name="DeleteUserTest"/>
+        </classes>
+    </test>
+
+    <test name="GetUserByIdTest">
+        <classes>
+            <class name="GetUserByIdTest"/>
+        </classes>
+    </test>
+
+    <test name="UpdateUserTest">
+        <classes>
+            <class name="UpdateUserTest"/>
+        </classes>
+    </test>
+</suite>
